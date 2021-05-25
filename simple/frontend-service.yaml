@@ -5,6 +5,7 @@ metadata:
   labels:
     app: guestbook
     tier: frontend
+    fake: do_change
 spec:
   type: NodePort
   ports:
